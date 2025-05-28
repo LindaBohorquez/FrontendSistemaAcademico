@@ -1,6 +1,5 @@
 package co.edu.frontend.DTO;
 
-import co.edu.ufps.SistemaAcademicoUFPSBackend.model.Mensaje;
 import lombok.Data;
 
 import java.util.Date;
@@ -19,7 +18,7 @@ public class MensajeDTO {
     private Long destinatarioId;
     private String nombreDestinatario;
 
-    public MensajeDTO(Mensaje mensaje) {
+    /*public MensajeDTO(Mensaje mensaje) {
         this.id = mensaje.getId();
         this.contenido = mensaje.getContenido();
         this.fechaEnvio = mensaje.getFechaEnvio();
@@ -32,5 +31,5 @@ public class MensajeDTO {
 
         this.destinatarioId = mensaje.getDestinatario().getId();
         this.nombreDestinatario = mensaje.getDestinatario().getNombre();
-    }
+    } */
 }

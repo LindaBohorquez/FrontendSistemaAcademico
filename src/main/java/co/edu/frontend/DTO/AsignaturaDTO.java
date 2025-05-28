@@ -12,11 +12,11 @@ public class AsignaturaDTO {
     private Long docenteId;
     private Long materiaId;
 
-    public AsignaturaDTO(Asignatura asignatura) {
+    /*public AsignaturaDTO(Asignatura asignatura) {
         this.id = asignatura.getId();
         this.nombre = asignatura.getNombre();
         this.docenteId = asignatura.getDocente() != null ? asignatura.getDocente().getId() : null;
         this.materiaId = asignatura.getMateria() != null ? asignatura.getMateria().getId() : null;
 
-    }
+    }*/
 }

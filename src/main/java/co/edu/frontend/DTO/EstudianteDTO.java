@@ -1,6 +1,5 @@
 package co.edu.frontend.DTO;
 
-import co.edu.ufps.SistemaAcademicoUFPSBackend.model.Estudiante;
 import lombok.Data;
 
 import java.time.LocalDate;
@@ -16,7 +15,7 @@ public class EstudianteDTO {
     private Long personaId;
     private Long programaId;
 
-    public EstudianteDTO(Estudiante estudiante) {
+    /*public EstudianteDTO(Estudiante estudiante) {
         this.id = estudiante.getId();
         this.becas = estudiante.getBecas();
         this.correoEstudiantil = estudiante.getCorreoEstudiantil();
@@ -26,4 +25,6 @@ public class EstudianteDTO {
         this.personaId = estudiante.getPersona() != null ? estudiante.getPersona().getId() : null;
         this.programaId = estudiante.getPrograma() != null ? estudiante.getPrograma().getId() : null;
     }
+
+     */
 }

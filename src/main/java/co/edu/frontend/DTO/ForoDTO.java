@@ -1,6 +1,5 @@
 package co.edu.frontend.DTO;
 
-import co.edu.ufps.SistemaAcademicoUFPSBackend.model.Foro;
 import lombok.Data;
 
 import java.util.Date;
@@ -16,7 +15,7 @@ public class ForoDTO {
     private Long autorId;
     private String nombreAutor;
 
-    public ForoDTO(Foro foro) {
+    /*public ForoDTO(Foro foro) {
         this.id = foro.getId();
         this.tema = foro.getTema();
         this.descripcion = foro.getDescripcion();
@@ -24,5 +23,5 @@ public class ForoDTO {
 
         this.autorId = foro.getAutor().getId();
         this.nombreAutor = foro.getAutor().getNombre();
-    }
+    }*/
 }

@@ -1,6 +1,5 @@
 package co.edu.frontend.DTO;
 
-import co.edu.ufps.SistemaAcademicoUFPSBackend.model.Comentario;
 import lombok.Data;
 
 import java.util.Date;
@@ -18,7 +17,7 @@ public class ComentarioDTO {
     private Long foroId;
     private String tituloForo;
 
-    public ComentarioDTO(Comentario comentario) {
+    /*public ComentarioDTO(Comentario comentario) {
         this.id = comentario.getId();
         this.contenido = comentario.getContenido();
         this.fechaCreacion = comentario.getFechaCreacion();
@@ -28,5 +27,5 @@ public class ComentarioDTO {
 
         this.foroId = comentario.getForo().getId();
         this.tituloForo = comentario.getForo().getTema();
-    }
+    }*/
 }

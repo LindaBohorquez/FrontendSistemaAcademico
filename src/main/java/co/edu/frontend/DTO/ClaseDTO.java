@@ -1,6 +1,5 @@
 package co.edu.frontend.DTO;
 
-import co.edu.ufps.SistemaAcademicoUFPSBackend.model.Clase;
 import lombok.Data;
 
 import java.util.Date;
@@ -20,7 +19,7 @@ public class ClaseDTO {
     private String nombreDocente;
     private String nombreSemestre;
 
-    public ClaseDTO(Clase clase) {
+    /*public ClaseDTO(Clase clase) {
         this.id = clase.getId();
         this.nombre = clase.getNombre();
         this.fecha = clase.getFecha();
@@ -33,5 +32,5 @@ public class ClaseDTO {
         this.nombreDocente = clase.getDocente() != null && clase.getDocente().getPersona() != null
                 ? clase.getDocente().getPersona().getNombre() : null;
         this.nombreSemestre = clase.getSemestre() != null ? clase.getSemestre().getNombre() : null;
-    }
+    }*/
 }

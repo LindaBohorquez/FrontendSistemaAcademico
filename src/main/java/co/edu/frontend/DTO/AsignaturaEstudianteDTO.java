@@ -1,6 +1,5 @@
 package co.edu.frontend.DTO;
 
-import co.edu.ufps.SistemaAcademicoUFPSBackend.model.AsignaturaEstudiante;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -21,7 +20,7 @@ public class AsignaturaEstudianteDTO {
     private boolean vacacional;
     private float definitiva;
 
-    public AsignaturaEstudianteDTO(AsignaturaEstudiante ae) {
+    /*public AsignaturaEstudianteDTO(AsignaturaEstudiante ae) {
         this.id = ae.getId();
         this.estudianteId = ae.getEstudiante().getId();
         this.asignaturaId = ae.getAsignatura().getId();
@@ -32,5 +31,5 @@ public class AsignaturaEstudianteDTO {
         this.habilitacion = ae.isHabilitacion();
         this.vacacional = ae.isVacacional();
         this.definitiva = ae.getDefinitiva();
-    }
+    }*/
 }
