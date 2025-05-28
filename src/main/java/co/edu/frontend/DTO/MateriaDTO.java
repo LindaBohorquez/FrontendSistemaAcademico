@@ -1,7 +1,6 @@
 package co.edu.frontend.DTO;
 
-import co.edu.ufps.SistemaAcademicoUFPSBackend.model.Materia;
-import co.edu.ufps.SistemaAcademicoUFPSBackend.model.TipoRequisito;
+
 import lombok.Data;
 
 @Data
@@ -24,7 +23,7 @@ public class MateriaDTO {
     private String tipoRequisito;              // nuevo campo
     private String requisitosDescripcion;      // nuevo campo
 
-    public MateriaDTO(Materia materia) {
+    /*public MateriaDTO(Materia materia) {
         this.id = materia.getId();
         this.nombre = materia.getNombre();
         this.estado = materia.getEstado();
@@ -60,5 +59,5 @@ public class MateriaDTO {
             case AMBOS -> "Debe haber cursado la materia: " + nombrePrerrequisito + " y tener al menos " + creditosReq + " créditos aprobados.";
             case NINGUNO -> "Sin requisitos.";
         };
-    }
+    }*/
 }

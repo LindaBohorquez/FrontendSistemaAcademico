@@ -1,6 +1,5 @@
 package co.edu.frontend.DTO;
 
-import co.edu.ufps.SistemaAcademicoUFPSBackend.model.EstadoAsistencia;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
@@ -15,5 +14,5 @@ public class ReporteAsistenciaDTO {
     private Date fechaClase;
     private String temaVisto;
     private String nombreDocente;
-    private EstadoAsistencia estadoAsistencia;
+    //private EstadoAsistencia estadoAsistencia;
 }

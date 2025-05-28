@@ -1,6 +1,5 @@
 package co.edu.frontend.DTO;
 
-import co.edu.ufps.SistemaAcademicoUFPSBackend.model.Chat;
 import lombok.Data;
 
 import java.util.Date;
@@ -17,7 +16,7 @@ public class ChatDTO {
     private Long participante2Id;
     private String nombreParticipante2;
 
-    public ChatDTO(Chat chat) {
+    /*public ChatDTO(Chat chat) {
         this.id = chat.getId();
         this.fechaCreacion = chat.getFechaCreacion();
 
@@ -26,5 +25,5 @@ public class ChatDTO {
 
         this.participante2Id = chat.getParticipante2().getId();
         this.nombreParticipante2 = chat.getParticipante2().getNombre();
-    }
+    }*/
 }
