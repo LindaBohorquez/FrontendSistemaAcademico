@@ -20,16 +20,4 @@ public class AsignaturaEstudianteDTO {
     private boolean vacacional;
     private float definitiva;
 
-    /*public AsignaturaEstudianteDTO(AsignaturaEstudiante ae) {
-        this.id = ae.getId();
-        this.estudianteId = ae.getEstudiante().getId();
-        this.asignaturaId = ae.getAsignatura().getId();
-        this.primerPrevio = ae.getPrimerPrevio();
-        this.segundoPrevio = ae.getSegundoPrevio();
-        this.tercerPrevio = ae.getTercerPrevio();
-        this.examenFinal = ae.getExamenFinal();
-        this.habilitacion = ae.isHabilitacion();
-        this.vacacional = ae.isVacacional();
-        this.definitiva = ae.getDefinitiva();
-    }*/
 }
