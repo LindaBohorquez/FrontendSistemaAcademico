@@ -8,6 +8,7 @@ co\edu\frontend\DTO\LoginResponse.class
 co\edu\frontend\FrontendApplication.class
 co\edu\frontend\DTO\LoginRequest.class
 co\edu\frontend\DTO\ClaseDTO.class
+co\edu\frontend\controller\DocenteController.class
 co\edu\frontend\DTO\DetalleAsignaturaDTO.class
 co\edu\frontend\DTO\ReporteAsistenciaDTO.class
 co\edu\frontend\controller\LoginController.class
@@ -16,6 +17,7 @@ co\edu\frontend\DTO\MensajeDTO.class
 co\edu\frontend\model\LoginRequest.class
 co\edu\frontend\DTO\ReporteReservaUsoDTO.class
 co\edu\frontend\DTO\AsignaturaDTO.class
+co\edu\frontend\controller\EstudianteController.class
 co\edu\frontend\DTO\HistorialAcademicoDTO.class
 co\edu\frontend\DTO\InformeAcademicoDTO.class
 co\edu\frontend\DTO\ForoDTO.class
@@ -23,3 +25,4 @@ co\edu\frontend\DTO\ReporteReservaEstadoDTO.class
 co\edu\frontend\DTO\ExamenDTO.class
 co\edu\frontend\DTO\ReporteReservaEstudianteDTO.class
 co\edu\frontend\DTO\FacultadDTO.class
+co\edu\frontend\DTO\DocenteDTO.class
