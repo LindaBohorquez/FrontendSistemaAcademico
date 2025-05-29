@@ -14,17 +14,4 @@ public class EstudianteDTO {
     private LocalDate fechaInscripcion;
     private Long personaId;
     private Long programaId;
-
-    /*public EstudianteDTO(Estudiante estudiante) {
-        this.id = estudiante.getId();
-        this.becas = estudiante.getBecas();
-        this.correoEstudiantil = estudiante.getCorreoEstudiantil();
-        this.creditosAprobados = estudiante.getCreditosAprobados();
-        this.estado = estudiante.getEstado();
-        this.fechaInscripcion = estudiante.getFechaInscripcion();
-        this.personaId = estudiante.getPersona() != null ? estudiante.getPersona().getId() : null;
-        this.programaId = estudiante.getPrograma() != null ? estudiante.getPrograma().getId() : null;
-    }
-
-     */
 }
