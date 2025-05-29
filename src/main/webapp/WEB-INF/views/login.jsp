@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
-    <link rel="stylesheet" href="<c:url value='/css/styles.css' />" />
+    <link rel="stylesheet" href="<c:url value='/css/home.css' />" />
 </head>
 <body>
 <div class="container">
