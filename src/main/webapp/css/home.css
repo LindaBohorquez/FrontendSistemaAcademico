@@ -1,9 +1,11 @@
+/* Reset general */
 body {
     margin: 0;
     padding: 0;
     font-family: "Inter", sans-serif;
 }
 
+/* Contenedor general */
 .frame {
     background-color: #1f2a37;
     min-height: 100vh;
@@ -11,6 +13,115 @@ body {
     width: 100%;
 }
 
+/* Botón de menú (tres rayas) */
+.menu-button {
+    background: none;
+    border: none;
+    color: #a6c1ee;
+    cursor: pointer;
+    font-size: 24px;
+    left: 15px;
+    padding: 10px;
+    position: absolute;
+    top: 13px;
+    transition: color 0.3s ease;
+    z-index: 1100;
+}
+
+.menu-button:hover {
+    color: #ffffff;
+}
+
+/* Estructura principal con aside + contenido */
+.main-layout {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    transition: margin-left 0.3s ease;
+    margin-left: 0;
+}
+
+.main-layout.aside-visible {
+    margin-left: 260px;
+}
+
+@media (max-width: 768px) {
+    .main-layout.aside-visible {
+        margin-left: 0;
+    }
+}
+
+/* ASIDE desplegable */
+.aside {
+    background-color: #27374d;
+    width: 260px;
+    padding: 20px;
+    color: #a6c1ee;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-height: 100vh;
+    transition: transform 0.3s ease;
+    transform: translateX(0);
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.aside-hidden {
+    transform: translateX(-100%);
+}
+
+.foto-de-perfil {
+    width: 80px;
+    height: 80px;
+    background-color: #a6c1ee;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.horizontal-border {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.symbol {
+    font-size: 18px;
+    color: #9ec4f7;
+}
+
+.text-wrapper-2,
+.text-wrapper-3,
+.text-wrapper-4,
+.text-wrapper-5,
+.p {
+    font-size: 14px;
+    color: #dbe9f5;
+}
+
+.aside .heading .text-wrapper {
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+/* CONTENIDO PRINCIPAL */
 .container {
     align-items: flex-start;
     display: flex;
@@ -91,18 +202,6 @@ body {
     font-size: 15px;
 }
 
-.list {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.item {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-}
-
 .text-wrapper-2,
 .text-wrapper-3,
 .text-wrapper-4 {
@@ -180,23 +279,7 @@ body {
     text-align: center;
 }
 
-.menu-button {
-    background: none;
-    border: none;
-    color: #a6c1ee;
-    cursor: pointer;
-    font-size: 24px;
-    left: 15px;
-    padding: 10px;
-    position: absolute;
-    top: 13px;
-    transition: color 0.3s ease;
-}
-
-.menu-button:hover {
-    color: #ffffff;
-}
-
+/* Responsive */
 @media (max-width: 1200px) {
     .section-2 {
         flex-wrap: wrap;
@@ -217,6 +300,20 @@ body {
     .background-border {
         width: 100%;
         flex: 0 0 100%;
+    }
+
+    .aside {
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: fixed;
+        height: auto;
+        min-height: unset;
+    }
+
+    .foto-de-perfil {
+        display: none;
     }
 }
 

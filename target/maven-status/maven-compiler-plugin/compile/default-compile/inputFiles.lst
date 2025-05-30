@@ -1,27 +1,25 @@
-C:\Users\kevin\Desktop\Web\FrontendSistemaAcademico\src\main\java\co\edu\frontend\controller\LoginController.java
-C:\Users\kevin\Desktop\Web\FrontendSistemaAcademico\src\main\java\co\edu\frontend\DTO\ClaseDTO.java
-C:\Users\kevin\Desktop\Web\FrontendSistemaAcademico\src\main\java\co\edu\frontend\DTO\PersonaDTO.java
-C:\Users\kevin\Desktop\Web\FrontendSistemaAcademico\src\main\java\co\edu\frontend\DTO\InformeAcademicoDTO.java
-C:\Users\kevin\Desktop\Web\FrontendSistemaAcademico\src\main\java\co\edu\frontend\DTO\AsignaturaEstudianteDTO.java
-C:\Users\kevin\Desktop\Web\FrontendSistemaAcademico\src\main\java\co\edu\frontend\DTO\AsignaturaDTO.java
-C:\Users\kevin\Desktop\Web\FrontendSistemaAcademico\src\main\java\co\edu\frontend\DTO\ComentarioDTO.java
-C:\Users\kevin\Desktop\Web\FrontendSistemaAcademico\src\main\java\co\edu\frontend\DTO\MensajeDTO.java
-C:\Users\kevin\Desktop\Web\FrontendSistemaAcademico\src\main\java\co\edu\frontend\model\LoginRequest.java
-C:\Users\kevin\Desktop\Web\FrontendSistemaAcademico\src\main\java\co\edu\frontend\FrontendApplication.java
-C:\Users\kevin\Desktop\Web\FrontendSistemaAcademico\src\main\java\co\edu\frontend\DTO\MateriaDTO.java
-C:\Users\kevin\Desktop\Web\FrontendSistemaAcademico\src\main\java\co\edu\frontend\model\LoginResponse.java
-C:\Users\kevin\Desktop\Web\FrontendSistemaAcademico\src\main\java\co\edu\frontend\DTO\EstudianteDTO.java
-C:\Users\kevin\Desktop\Web\FrontendSistemaAcademico\src\main\java\co\edu\frontend\DTO\LoginResponse.java
-C:\Users\kevin\Desktop\Web\FrontendSistemaAcademico\src\main\java\co\edu\frontend\DTO\ChatDTO.java
-C:\Users\kevin\Desktop\Web\FrontendSistemaAcademico\src\main\java\co\edu\frontend\DTO\FacultadDTO.java
-C:\Users\kevin\Desktop\Web\FrontendSistemaAcademico\src\main\java\co\edu\frontend\DTO\DetalleAsignaturaDTO.java
-C:\Users\kevin\Desktop\Web\FrontendSistemaAcademico\src\main\java\co\edu\frontend\DTO\ReporteReservaEstadoDTO.java
-C:\Users\kevin\Desktop\Web\FrontendSistemaAcademico\src\main\java\co\edu\frontend\DTO\ForoDTO.java
-C:\Users\kevin\Desktop\Web\FrontendSistemaAcademico\src\main\java\co\edu\frontend\DTO\ReporteReservaEstudianteDTO.java
-C:\Users\kevin\Desktop\Web\FrontendSistemaAcademico\src\main\java\co\edu\frontend\DTO\ReporteReservaUsoDTO.java
-C:\Users\kevin\Desktop\Web\FrontendSistemaAcademico\src\main\java\co\edu\frontend\DTO\ReporteAsistenciaDTO.java
-C:\Users\kevin\Desktop\Web\FrontendSistemaAcademico\src\main\java\co\edu\frontend\DTO\ExamenDTO.java
-C:\Users\kevin\Desktop\Web\FrontendSistemaAcademico\src\main\java\co\edu\frontend\DTO\LoginRequest.java
-C:\Users\kevin\Desktop\Web\FrontendSistemaAcademico\src\main\java\co\edu\frontend\DTO\AsistenciaDTO.java
-C:\Users\kevin\Desktop\Web\FrontendSistemaAcademico\src\main\java\co\edu\frontend\DTO\HistorialAcademicoDTO.java
-C:\Users\kevin\Desktop\Web\FrontendSistemaAcademico\src\main\java\co\edu\frontend\controller\EstudianteController.java
+C:\Users\Zipper\Documents\Clases 6to semestre\Web\GitHub\SegundoPrevioWeb\FrontendSistemaAcademico\src\main\java\co\edu\frontend\DTO\ReporteReservaEstadoDTO.java
+C:\Users\Zipper\Documents\Clases 6to semestre\Web\GitHub\SegundoPrevioWeb\FrontendSistemaAcademico\src\main\java\co\edu\frontend\DTO\LoginRequest.java
+C:\Users\Zipper\Documents\Clases 6to semestre\Web\GitHub\SegundoPrevioWeb\FrontendSistemaAcademico\src\main\java\co\edu\frontend\DTO\LoginResponse.java
+C:\Users\Zipper\Documents\Clases 6to semestre\Web\GitHub\SegundoPrevioWeb\FrontendSistemaAcademico\src\main\java\co\edu\frontend\DTO\EstudianteDTO.java
+C:\Users\Zipper\Documents\Clases 6to semestre\Web\GitHub\SegundoPrevioWeb\FrontendSistemaAcademico\src\main\java\co\edu\frontend\DTO\AsignaturaEstudianteDTO.java
+C:\Users\Zipper\Documents\Clases 6to semestre\Web\GitHub\SegundoPrevioWeb\FrontendSistemaAcademico\src\main\java\co\edu\frontend\DTO\ReporteReservaUsoDTO.java
+C:\Users\Zipper\Documents\Clases 6to semestre\Web\GitHub\SegundoPrevioWeb\FrontendSistemaAcademico\src\main\java\co\edu\frontend\DTO\ReporteReservaEstudianteDTO.java
+C:\Users\Zipper\Documents\Clases 6to semestre\Web\GitHub\SegundoPrevioWeb\FrontendSistemaAcademico\src\main\java\co\edu\frontend\DTO\AsignaturaDTO.java
+C:\Users\Zipper\Documents\Clases 6to semestre\Web\GitHub\SegundoPrevioWeb\FrontendSistemaAcademico\src\main\java\co\edu\frontend\controller\LoginController.java
+C:\Users\Zipper\Documents\Clases 6to semestre\Web\GitHub\SegundoPrevioWeb\FrontendSistemaAcademico\src\main\java\co\edu\frontend\DTO\ReporteAsistenciaDTO.java
+C:\Users\Zipper\Documents\Clases 6to semestre\Web\GitHub\SegundoPrevioWeb\FrontendSistemaAcademico\src\main\java\co\edu\frontend\DTO\ClaseDTO.java
+C:\Users\Zipper\Documents\Clases 6to semestre\Web\GitHub\SegundoPrevioWeb\FrontendSistemaAcademico\src\main\java\co\edu\frontend\DTO\ComentarioDTO.java
+C:\Users\Zipper\Documents\Clases 6to semestre\Web\GitHub\SegundoPrevioWeb\FrontendSistemaAcademico\src\main\java\co\edu\frontend\DTO\HistorialAcademicoDTO.java
+C:\Users\Zipper\Documents\Clases 6to semestre\Web\GitHub\SegundoPrevioWeb\FrontendSistemaAcademico\src\main\java\co\edu\frontend\FrontendApplication.java
+C:\Users\Zipper\Documents\Clases 6to semestre\Web\GitHub\SegundoPrevioWeb\FrontendSistemaAcademico\src\main\java\co\edu\frontend\DTO\FacultadDTO.java
+C:\Users\Zipper\Documents\Clases 6to semestre\Web\GitHub\SegundoPrevioWeb\FrontendSistemaAcademico\src\main\java\co\edu\frontend\DTO\ChatDTO.java
+C:\Users\Zipper\Documents\Clases 6to semestre\Web\GitHub\SegundoPrevioWeb\FrontendSistemaAcademico\src\main\java\co\edu\frontend\DTO\ForoDTO.java
+C:\Users\Zipper\Documents\Clases 6to semestre\Web\GitHub\SegundoPrevioWeb\FrontendSistemaAcademico\src\main\java\co\edu\frontend\DTO\MensajeDTO.java
+C:\Users\Zipper\Documents\Clases 6to semestre\Web\GitHub\SegundoPrevioWeb\FrontendSistemaAcademico\src\main\java\co\edu\frontend\DTO\InformeAcademicoDTO.java
+C:\Users\Zipper\Documents\Clases 6to semestre\Web\GitHub\SegundoPrevioWeb\FrontendSistemaAcademico\src\main\java\co\edu\frontend\DTO\DetalleAsignaturaDTO.java
+C:\Users\Zipper\Documents\Clases 6to semestre\Web\GitHub\SegundoPrevioWeb\FrontendSistemaAcademico\src\main\java\co\edu\frontend\DTO\MateriaDTO.java
+C:\Users\Zipper\Documents\Clases 6to semestre\Web\GitHub\SegundoPrevioWeb\FrontendSistemaAcademico\src\main\java\co\edu\frontend\model\LoginResponse.java
+C:\Users\Zipper\Documents\Clases 6to semestre\Web\GitHub\SegundoPrevioWeb\FrontendSistemaAcademico\src\main\java\co\edu\frontend\DTO\AsistenciaDTO.java
+C:\Users\Zipper\Documents\Clases 6to semestre\Web\GitHub\SegundoPrevioWeb\FrontendSistemaAcademico\src\main\java\co\edu\frontend\DTO\ExamenDTO.java
+C:\Users\Zipper\Documents\Clases 6to semestre\Web\GitHub\SegundoPrevioWeb\FrontendSistemaAcademico\src\main\java\co\edu\frontend\model\LoginRequest.java

@@ -4,8 +4,9 @@ import lombok.Data;
 
 @Data
 public class DetalleAsignaturaDTO {
-    private String asignaturaNombre;
-    private Float nota;
-    //private EstadoCurso estado;
+    private Long asignaturaId;
+    private String asignaturaNombre; // <-- debe coincidir con el JSON del backend
+    private float nota;
+    private String estado;
     private String periodo;
 }

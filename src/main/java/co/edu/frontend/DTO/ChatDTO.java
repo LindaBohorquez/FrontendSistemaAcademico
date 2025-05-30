@@ -15,4 +15,6 @@ public class ChatDTO {
 
     private Long participante2Id;
     private String nombreParticipante2;
+
+
 }
