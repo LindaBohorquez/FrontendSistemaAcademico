@@ -17,15 +17,4 @@ public class ComentarioDTO {
     private Long foroId;
     private String tituloForo;
 
-    /*public ComentarioDTO(Comentario comentario) {
-        this.id = comentario.getId();
-        this.contenido = comentario.getContenido();
-        this.fechaCreacion = comentario.getFechaCreacion();
-
-        this.emisorId = comentario.getEmisor().getId();
-        this.nombreEmisor = comentario.getEmisor().getNombre();
-
-        this.foroId = comentario.getForo().getId();
-        this.tituloForo = comentario.getForo().getTema();
-    }*/
 }

@@ -9,8 +9,9 @@
 </head>
 <body>
 <div class="dashboard-container">
-    <h2>Bienvenido, <c:out value="${usuario}" />!</h2>
-    <p>Tu rol es: <c:out value="${rol}" /></p>
+<h2>Bienvenido, <c:out value="${usuario.nombre}" />!</h2>
+<p>Tu rol es: <c:out value="${usuario.rol}" /></p>
+    <a href="/gestion-roles">gestion-roles</a>
     <a href="/logout" class="logout-button">Cerrar sesión</a>
 </div>
 </body>

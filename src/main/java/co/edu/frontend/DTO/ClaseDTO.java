@@ -18,19 +18,4 @@ public class ClaseDTO {
     private String nombreAsignatura;
     private String nombreDocente;
     private String nombreSemestre;
-
-    /*public ClaseDTO(Clase clase) {
-        this.id = clase.getId();
-        this.nombre = clase.getNombre();
-        this.fecha = clase.getFecha();
-        this.lugar = clase.getLugar();
-        this.temaVisto = clase.getTemaVisto();
-        this.cupoMaximo = clase.getCupoMaximo();
-        this.creditos = clase.getCreditos();
-
-        this.nombreAsignatura = clase.getAsignatura() != null ? clase.getAsignatura().getNombre() : null;
-        this.nombreDocente = clase.getDocente() != null && clase.getDocente().getPersona() != null
-                ? clase.getDocente().getPersona().getNombre() : null;
-        this.nombreSemestre = clase.getSemestre() != null ? clase.getSemestre().getNombre() : null;
-    }*/
 }
