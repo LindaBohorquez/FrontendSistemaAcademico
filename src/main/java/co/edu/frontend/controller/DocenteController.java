@@ -1,15 +1,14 @@
 package co.edu.frontend.controller;
 
 import co.edu.frontend.DTO.DocenteDTO;
-import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
+
 @Controller
 @RequestMapping("/docentes")
-@RequiredArgsConstructor
 public class DocenteController {
 
     private final RestTemplate restTemplate;
@@ -17,12 +16,24 @@ public class DocenteController {
     @Value("${backend.url}")
     private String backendUrl;
 
+    public DocenteController(RestTemplate restTemplate) {
+        this.restTemplate = restTemplate;
+    }
+
     @GetMapping
-    public String verVistaDocente(Model model) {
+    public String listarDocentes(@RequestParam(required = false) Long id, Model model) {
         DocenteDTO[] docentes = restTemplate.getForObject(backendUrl + "/docentes", DocenteDTO[].class);
         model.addAttribute("docentes", docentes);
-        model.addAttribute("docente", new DocenteDTO()); // Formulario vacío por defecto
-        return "docente"; // Unificada
+
+        DocenteDTO docente;
+        if (id != null) {
+            docente = restTemplate.getForObject(backendUrl + "/docentes/" + id, DocenteDTO.class);
+        } else {
+            docente = new DocenteDTO();
+        }
+        model.addAttribute("docente", docente);
+
+        return "docente";
     }
 
     @PostMapping("/guardar")
@@ -33,14 +44,5 @@ public class DocenteController {
             restTemplate.put(backendUrl + "/docentes/" + docente.getId(), docente);
         }
         return "redirect:/docentes";
-    }
-
-    @GetMapping("/editar/{id}")
-    public String editarDocente(@PathVariable Long id, Model model) {
-        DocenteDTO docente = restTemplate.getForObject(backendUrl + "/docentes/" + id, DocenteDTO.class);
-        DocenteDTO[] docentes = restTemplate.getForObject(backendUrl + "/docentes", DocenteDTO[].class);
-        model.addAttribute("docentes", docentes);
-        model.addAttribute("docente", docente); // Carga datos al form
-        return "docente";
     }
 }
